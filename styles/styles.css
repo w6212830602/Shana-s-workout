@@ -1,0 +1,137 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.fixed-width {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2, p {
+    margin-bottom: 15px;
+}
+
+header a {
+    font-size: 18px;
+    padding-left: 2px;
+}
+
+header, footer {
+    background-color: #c74365;
+}
+
+main {
+    padding: 30px 0 15px 0;
+}
+
+header img {
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+
+h1, header a {
+    line-height: 50px;
+}
+
+.flex ul {
+    margin-left: 50px;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.italics {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b03553; /* 比主色系深一點的紅色 */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    transform: translateX(-50%);
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.dropdown-content li:hover {
+    background-color: #d54c75; /* 使用稍淺的色調作為hover效果 */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 5px;
+}
