@@ -135,3 +135,52 @@ nav ul {
 nav ul li {
     margin-right: 5px;
 }
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -10px;
+}
+
+.video-container {
+    flex-basis: calc(50% - 20px);
+    max-width: 450px; /* 限制最大寬度 */
+    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+video {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.video-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #c74365;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.video-description {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .video-container {
+        flex-basis: 100%;
+        max-width: 500px;
+    }
+}
