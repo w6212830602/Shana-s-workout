@@ -39,11 +39,12 @@ footer {
     font-size: 12px;
     text-align: center;
     padding: 15px;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(248, 248, 248);
 }
 
 a:hover {
@@ -60,7 +61,8 @@ header a {
 }
 
 header, footer {
-    background-color: #c74365;
+    background-color: #053081;
+    color: white;
 }
 
 main {
@@ -103,7 +105,7 @@ article {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #b03553; /* 比主色系深一點的紅色 */
+    background-color: #053081; /* 比主色系深一點的紅色 */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -125,7 +127,7 @@ article {
 }
 
 .dropdown-content li:hover {
-    background-color: #d54c75; /* 使用稍淺的色調作為hover效果 */
+    background-color: #4c93d5; /* 使用稍淺的色調作為hover效果 */
 }
 
 nav ul {
@@ -166,7 +168,7 @@ video {
 .video-title {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
-    color: #c74365;
+    color: #55a8df;
     margin-bottom: 8px;
     text-align: center;
 }
